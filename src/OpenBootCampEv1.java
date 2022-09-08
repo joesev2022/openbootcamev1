@@ -20,7 +20,7 @@ public class OpenBootCampEv1 {
         System.out.println("Ingrese cantidad de puertas, máximo hasta 4");
         cantPuertas = sc.nextInt();
         resultado = miCoche.incrementarNumPuertas(cantPuertas);
-        System.out.println("El coche tiene " + resultado + " puertas.");
+        System.out.println("Mi coche tiene " + resultado + " puertas.");
     }
 
     public static int suma(int num1, int num2, int num3){
